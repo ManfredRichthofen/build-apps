@@ -7,7 +7,7 @@ enable-magisk-update = false # set this to false if you do not want to receive u
 
 [YouTube]
 build-mode = "apk"
-excluded-patches = ""
+excluded-patches = "custom-branding,custom-branding-name-youtube,enable-debug-logging,hide-fullscreen-button,swipecontrols"
 included-patches = ""
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube" 
