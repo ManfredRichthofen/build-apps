@@ -1,4 +1,4 @@
-enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
+enable-magisk-update = false # set this to false if you do not want to receive updates for the module in magisk app
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
@@ -68,7 +68,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "both"
 
 [YouTube-anddea]
-enabled = true
+enabled = false
 app-name = "YouTube"
 version = "auto"
 patches-source = "anddea/revanced-patches"
@@ -80,6 +80,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Twitter]
+enabled = false
 build-mode = "apk"
 version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
@@ -88,13 +89,14 @@ uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 arch = "all"
 
 [Twitch]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 arch = "both"
 
 [TikTok]
+enabled = false
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly"
 uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
@@ -103,19 +105,20 @@ uptodown-dlurl = "https://tiktok.en.uptodown.com/android"
 included-patches = "'SIM spoof'"
 
 [Reddit]
+enabled = false
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
 
 [Messenger]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
 # arch = "armeabi-v7a"
 
 [Facebook]
-enabled = true
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
 uptodown-dlurl = "https://facebook.en.uptodown.com/android"
 # arch = "armeabi-v7a"
@@ -127,7 +130,7 @@ version = "auto"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 [Spotify-Lite]
-enabled = true
+enabled = false
 build-mode = "apk"
 version = "auto"
 uptodown-dlurl = "https://spotify-lite.en.uptodown.com/android"
@@ -151,30 +154,30 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/"
 
 [MyExpenses]
-enabled = true
+enabled = false
 version = "auto"
 uptodown-dlurl = "https://my-expenses.en.uptodown.com/android"
 
 [NyxMusicPlayer]
-enabled = true
+enabled = false
 build-mode = "apk"
 version = "auto"
 uptodown-dlurl = "https://nyx-music-player.en.uptodown.com/android"
 arch = "both"
 
 [IconPackStudio]
-enabled = true
+enabled = false
 version = "auto"
 uptodown-dlurl = "https://icon-pack-studio.en.uptodown.com/android"
 
 [TickTick]
-enabled = true
+enabled = false
 version = "auto"
 uptodown-dlurl = "https://ticktick.en.uptodown.com/android"
 arch = "both"
 
 [Tasker]
-enabled = true
+enabled = false
 uptodown-dlurl = "https://tasker.en.uptodown.com/android"
 
 [Photomath]
@@ -182,7 +185,7 @@ enabled = false
 apkmonk-dlurl = "https://www.apkmonk.com/app/com.microblink.photomath/"
 
 [Instagram]
-enabled = true
+enabled = false
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android"
@@ -190,7 +193,7 @@ uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 arch = "both"
 
 [InShorts]
-enabled = true
+enabled = false
 version = "auto"
 uptodown-dlurl = "https://inshorts.en.uptodown.com/android"
 arch = "both"
@@ -201,12 +204,12 @@ version = "auto"
 uptodown-dlurl = "https://sync-for-reddit.en.uptodown.com/android"
 
 [InfinityForReddit]
-enabled = true
+enabled = false
 version = "auto"
 uptodown-dlurl = "https://infinity-for-reddit.en.uptodown.com/android"
 
 [VSCO]
-enabled = true
+enabled = false
 version = "auto"
 uptodown-dlurl = "https://vsco-cam.en.uptodown.com/android"
 arch = "both"
@@ -222,7 +225,7 @@ version = "auto"
 # uptodown-dlurl = "https://trakt.en.uptodown.com/android"
 
 [MemeGenerator]
-enabled = true
+enabled = false
 version = "auto"
 uptodown-dlurl = "https://meme-generator-free.en.uptodown.com/android"
 
@@ -233,6 +236,6 @@ uptodown-dlurl = "https://adobe-lightroom-mobile.en.uptodown.com/android"
 arch = "both"
 
 [Tumblr]
-enabled = true
+enabled = false
 version = "auto"
 uptodown-dlurl = "https://tumblr.en.uptodown.com/android"
