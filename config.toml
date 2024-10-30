@@ -58,7 +58,7 @@ uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
 
 [Music-anddea]
-enabled = true
+enabled = false
 app-name = "Music"
 version = "auto"
 patches-source = "anddea/revanced-patches"
@@ -127,7 +127,7 @@ uptodown-dlurl = "https://facebook.en.uptodown.com/android"
 # arch = "armeabi-v7a"
 
 [Spotify]
-enabled = false
+enabled = true
 build-mode = "apk"
 version = "auto"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
